@@ -1,3 +1,12 @@
+
+# -----------------------------------------------------------------------------
+# This folder contains Terraform configuration for deploying the complete
+# infrastructure required for the TodoApp monolithic service on Microsoft Azure.
+# It provisions resource groups, virtual networks, subnets, VMs, public IPs,
+# Key Vault with secrets, and SQL Server/database resources using reusable modules.
+# 
+
+
 module "rg" {
   source                  = "../module/azurerm_resource_group"
   resource_group_name     = "my_todorg"
