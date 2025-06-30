@@ -1,3 +1,17 @@
+
+# Key Features:
+# - Azure Resource Group, Virtual Network, aur Subnets ka creation
+# - Frontend ke liye Linux Virtual Machine with Public IP provisioning
+# - Backend ke liye Azure SQL Server aur Database setup
+# - Azure Key Vault ke through secrets (jaise VM aur SQL credentials) ka secure management
+# - Sabhi resources reusable Terraform modules ke through manage kiye ja rahe hain
+#
+# Is folder ko use karke aap apne TodoApp ke liye ek secure, scalable, aur production-ready
+# Azure infrastructure automate kar sakte hain. Sabhi modules aur secrets centralized hain,
+# jisse management aur security dono easy ho jati hai.
+
+
+
 module "rg" {
   source                  = "../module/azurerm_resource_group"
   resource_group_name     = "my_todorg"
