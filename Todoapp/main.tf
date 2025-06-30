@@ -1,19 +1,5 @@
 
 # -----------------------------------------------------------------------------
-# This folder contains Terraform configuration for deploying the complete
-# infrastructure required for the TodoApp monolithic service on Microsoft Azure.
-# It provisions resource groups, virtual networks, subnets, VMs, public IPs,
-# Key Vault with secrets, and SQL Server/database resources using reusable modules.
-# 
-# -----------------------------------------------------------------------------
-# Terraform Infrastructure for TodoApp Monolithic Service on Azure
-#
-# Is folder ke andar aapko pura Terraform configuration milega jo TodoApp monolithic
-# application ko Microsoft Azure par deploy karne ke liye banaya gaya hai.
-#
-# Ye configuration infrastructure as code (IaC) ka use karta hai, jisse aap easily
-# apne cloud resources ko automate, manage, aur version control kar sakte hain.
-#
 # Key Features:
 # - Azure Resource Group, Virtual Network, aur Subnets ka creation
 # - Frontend ke liye Linux Virtual Machine with Public IP provisioning
